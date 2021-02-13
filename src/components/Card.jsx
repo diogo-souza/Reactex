@@ -7,7 +7,7 @@ const Caixa = ({ info, cardTitle }) => (
     <Card.Header><b>{cardTitle}</b></Card.Header>
     <Card.Body className="p-2">
       <Button variant="dark" className="p-2 preto">
-        { info }
+        {info}
         {' '}
       </Button>
       <div xs={6} md={4} className="text-center texto">
